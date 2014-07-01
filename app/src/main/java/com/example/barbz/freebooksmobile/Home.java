@@ -44,8 +44,22 @@ public class Home extends Activity {
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
+        listDataHeader.add("Ada");
+        listDataHeader.add("Agda");
+        listDataHeader.add("Android");
+        listDataHeader.add("APL");
+        listDataHeader.add("Arduino");
+        listDataHeader.add("ASP.NET MVC");
+        listDataHeader.add("Assembly Language");
+        listDataHeader.add("AutoHotKey");
+        listDataHeader.add("Autotools");
+        listDataHeader.add("Awk");
+        listDataHeader.add("Bash");
+        listDataHeader.add("Basic");
+        listDataHeader.add("BETA");
         listDataHeader.add("C");
         listDataHeader.add("C++");
+
         listDataHeader.add("Python");
         listDataHeader.add("Java");
 
