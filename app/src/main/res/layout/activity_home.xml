@@ -9,7 +9,7 @@
     tools:context=".Home">
 
     <TextView
-        android:text="Please for the love of god, work!!"
+        android:text="@string/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
