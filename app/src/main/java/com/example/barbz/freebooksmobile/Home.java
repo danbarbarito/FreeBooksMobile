@@ -44,37 +44,41 @@ public class Home extends Activity {
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add("Top 250");
-        listDataHeader.add("Now Showing");
-        listDataHeader.add("Coming Soon..");
+        listDataHeader.add("C");
+        listDataHeader.add("C++");
+        listDataHeader.add("Python");
+        listDataHeader.add("Java");
 
         // Adding child data
-        List<String> top250 = new ArrayList<String>();
-        top250.add("The Shawshank Redemption");
-        top250.add("The Godfather");
-        top250.add("The Godfather: Part II");
-        top250.add("Pulp Fiction");
-        top250.add("The Good, the Bad and the Ugly");
-        top250.add("The Dark Knight");
-        top250.add("12 Angry Men");
+        List<String> c = new ArrayList<String>();
+        c.add("cbook1");
+        c.add("cbook2");
+        c.add("cbook3");
+        c.add("cbook4");
 
-        List<String> nowShowing = new ArrayList<String>();
-        nowShowing.add("The Conjuring");
-        nowShowing.add("Despicable Me 2");
-        nowShowing.add("Turbo");
-        nowShowing.add("Grown Ups 2");
-        nowShowing.add("Red 2");
-        nowShowing.add("The Wolverine");
 
-        List<String> comingSoon = new ArrayList<String>();
-        comingSoon.add("2 Guns");
-        comingSoon.add("The Smurfs 2");
-        comingSoon.add("The Spectacular Now");
-        comingSoon.add("The Canyons");
-        comingSoon.add("Europa Report");
+        List<String> cpp = new ArrayList<String>();
+        cpp.add("cppbook1");
+        cpp.add("cppbook2");
+        cpp.add("cppbook3");
+        cpp.add("cppbook4");
 
-        listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
-        listDataChild.put(listDataHeader.get(1), nowShowing);
-        listDataChild.put(listDataHeader.get(2), comingSoon);
+        List<String> python = new ArrayList<String>();
+        python.add("pybook1");
+        python.add("pybook2");
+        python.add("pybook3");
+        python.add("pybook4");
+
+        List<String> java = new ArrayList<String>();
+        java.add("javabook1");
+        java.add("javabook2");
+        java.add("javabook3");
+        java.add("javabook4");
+
+
+        listDataChild.put(listDataHeader.get(0), c); // Header, Child data
+        listDataChild.put(listDataHeader.get(1), cpp);
+        listDataChild.put(listDataHeader.get(2), python);
+        listDataChild.put(listDataHeader.get(3), java);
     }
 }

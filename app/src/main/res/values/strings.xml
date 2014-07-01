@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">FreeBooksMobile</string>
-    <string name="welcome">Welcome To FreeBooksMobile</string>
+    <string name="welcome">Free Programming Books</string>
     <string name="action_settings">Settings</string>
 
 </resources>
