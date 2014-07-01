@@ -8,14 +8,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class Home extends Activity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] myStringArray = new String[3];
-        myStringArray[0] = "test";
-        myStringArray[1] = "test2";
-        myStringArray[2] = "test3";
+        String[] myStringArray = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
         setContentView(R.layout.activity_home);
         ArrayAdapter adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, myStringArray);
